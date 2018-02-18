@@ -1,0 +1,14 @@
+<div class="col-md-6 col-md-offset-3">
+	<div class="edit-cat-form">
+		<h1>Edit Cat</h1>
+
+		<%= simple_form_for @cat, :html => { :multipart => true } do |f| %>
+			<%= f.select :cat_egory_id, @cat_egories %>
+			<%= f.file_field :cat_image %>
+			<%= f.input :name, label: "Cat Name" %>
+			<%= f.input :personality %>
+			<%= f.input :owner %>
+			<%= f.button :submit, :class => "btn-custom2" %>
+		<% end %>
+	</div>
+</div>

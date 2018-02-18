@@ -1,0 +1,20 @@
+<h1 class="current-category"><%= params[:cat_egory]%></h1>
+
+<% if @cats.count == 0 %>
+	<h1> There are no cats in the cat-egory</h1>
+<% else %>
+
+	<div class="row">
+		<% @cats.each do |cat| %>
+
+			<div class="col-md-3">
+				<a href="/cats/<%= cat.id %>">
+					<%= image_tag cat.cat_image.url(:cat_index), class: "cat" %>
+				</a>
+			</div>
+
+		<% end %>
+
+	</div>
+
+<% end %>

@@ -1,0 +1,9 @@
+<%= simple_form_for @cat, :html => { :multipart => true } do |f| %>
+	<%= select_tag(:cat_egory_id, options_for_select(@cat_egories), :prompt => "Select a Cat-Egory") %>
+	<%= f.file_field :cat_image %>
+	<%= f.input :name, label: "Cat Name" %>
+	<%= f.input :personality %>
+	<%= f.input :owner %>
+	<%= f.button :submit, :class => 'btn-custom2' %>
+<% end %>
+
