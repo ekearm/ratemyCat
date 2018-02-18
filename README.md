@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Followed a tutorial on youtube by Ryan Hemrick youtube link: https://www.youtube.com/channel/UCxlRo6PM3QmRWJa-HTA0tMg GitHub link: https://github.com/RyanHemrick
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+followed it but I made it with cats instead
